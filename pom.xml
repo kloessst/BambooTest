@@ -11,6 +11,8 @@
   <properties>
     <maven.compiler.source>14</maven.compiler.source>
     <maven.compiler.target>14</maven.compiler.target>
+    <spotbugs.outputXmlFilename>spotbugs.xml</spotbugs.outputXmlFilename>
+    <checkstyle.output.file>${project.build.directory}/checkstyle.xml</checkstyle.output.file>
     <sonar.login>39fa481f58822d1ee69e6e6683a051449455c7a9</sonar.login>
     <sonar.java.spotbugs.reportPaths>./target/spotbugsXml.xml</sonar.java.spotbugs.reportPaths>
     <sonar.java.checkstyle.reportPaths>./target/checkstyle-result.xml</sonar.java.checkstyle.reportPaths>
