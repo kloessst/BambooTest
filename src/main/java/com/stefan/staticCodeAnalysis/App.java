@@ -11,7 +11,7 @@ public class App {
         System.out.println(equalString("Hello"));
     }
 
-    public static boolean equalString(String a) {
+    public static boolean equalString(String a) 
         String b = "B";
         return a == b;
     }
