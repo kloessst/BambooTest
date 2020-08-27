@@ -9,10 +9,18 @@ public class App {
         String a = "A";
         String b = "B";
         System.out.println(equalString("Hello"));
+        Inner.equalString(a,b);
     }
 
     public static boolean equalString(String a)  {
         String b = "B";
         return a == b;
+    }
+    
+    public static class Inner {
+        public static boolean equalString(String a)  {
+            String b = "B";
+            return a == b;
+        }
     }
 }
