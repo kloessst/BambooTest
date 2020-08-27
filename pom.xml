@@ -27,6 +27,7 @@
         <artifactId>spotbugs-maven-plugin</artifactId>
         <version>4.0.0</version>
         <configuration>
+          <addSourceDirs>true</addSourceDirs>
           <xmlOutput>true</xmlOutput>
         </configuration>
         <executions>
