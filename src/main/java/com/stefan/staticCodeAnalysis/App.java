@@ -9,7 +9,7 @@ public class App {
         String a = "A";
         String b = "B";
         System.out.println(equalString("Hello"));
-        Inner.equalString(a,b);
+        Inner.equalString(a);
     }
 
     public static boolean equalString(String a)  {
